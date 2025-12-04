@@ -1,0 +1,5 @@
+services:
+  - type: docker
+    name: site_vitrine_ecole
+    env: docker
+    dockerfilePath: Dockerfile

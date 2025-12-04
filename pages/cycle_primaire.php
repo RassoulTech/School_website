@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cycle Primaire - École de Ngoundiane</title>
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Nastaliq+Urdu:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <!-- file css -->
+    <link rel="stylesheet" href="../public/css/main.css">
     <!-- CDN Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- CDN Font Awesome -->
@@ -17,7 +23,7 @@
     <!-- Bannière -->
     <section class="relative h-64 flex items-center justify-center text-white bg-[url('./public/images/primaire-banner.jpg')] bg-cover bg-center">
         <div class="absolute inset-0 bg-blue-900/70"></div>
-        <h1 class="text-4xl md:text-5xl font-bold z-10 animate-fadeIn">Cycle Primaire</h1>
+        <h1 class="text-4xl md:text-3xl font-bold z-10 animate-fadeIn">Cycle Primaire</h1>
     </section>
 
     <!-- Présentation du cycle -->
@@ -82,6 +88,12 @@
 
     <!-- Footer -->
     <?php require_once '../footer.php'; ?>
+
+        <!-- WhatsApp flottant -->
+    <a href="https://wa.me/779903674" target="_blank" 
+        class="fixed bottom-6 right-6 z-50 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 animate-pulse transition duration-300">
+        <i class="fab fa-whatsapp text-white text-2xl"></i>
+    </a>
 
     <!-- Animations -->
     <style>

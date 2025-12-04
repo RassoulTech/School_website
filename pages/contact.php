@@ -5,7 +5,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require '../PHPMailer/src/Exception.php';
 require '../PHPMailer/src/PHPMailer.php';
-require '../PhpMailer/src/SMTP.php';
+require '../PHPMailer/src/SMTP.php';
 
 $message_alert = ""; // Variable qui contient le message de retour
 
@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Contenu
         $mail->isHTML(true);
-        $mail->Subject = 'Nouveau message depuis Contact - ecole Ngoundiane';
+        $mail->Subject = "Nouveau Contact - $nom";
         $mail->Body    = $message_body;
         $mail->AltBody = "Nom: $nom\nEmail: $email\nMessage: $message";
 
@@ -57,16 +57,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - École de Ngoundiane</title>
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Nastaliq+Urdu:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
     <!-- file css -->
-    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="../public/css/main.css">
     <!-- CDN tailwind css-->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- CDN font awersome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-gray-200">
-
-
+    
     <!-- Menu déroulante -->
     <?php require_once '../header.php'; ?>
 
@@ -80,20 +83,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <!-- Formulaire de contact -->
                 <form action="" method="post" class="space-y-5">
                     <div>
-                        <label for="name" class="block text-sm font-medium text-gray-700"><i class="fa-solid fa-user mr-1 text-blue-900"></i> Nom</label>
-                        <input type="text" id="name" name="name" required 
+                        <label for="name" class="block text-sm font-medium text-gray-700"><i class="fa-solid fa-user mr-1 text-blue-900"></i> Nom *</label>
+                        <input type="text" id="name" name="name" required placeholder="Nom complet"
                             class="mt-1 w-full p-3 border border-gray-300 rounded-md focus:ring-blue-900 focus:border-blue-900">
                     </div>
 
                     <div>
-                        <label for="email" class="block text-sm font-medium text-gray-700"><i class="fa-solid fa-envelope mr-1 text-blue-900"></i> Email</label>
-                        <input type="email" id="email" name="email" required 
+                        <label for="email" class="block text-sm font-medium text-gray-700"><i class="fa-solid fa-envelope mr-1 text-blue-900"></i> Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="contact@exemple.com"
                             class="mt-1 w-full p-3 border border-gray-300 rounded-md focus:ring-blue-900 focus:border-blue-900">
                     </div>
 
                     <div>
-                        <label for="message" class="block text-sm font-medium text-gray-700"><i class="fa-solid fa-comment-dots mr-1 text-blue-900"></i> MessageMessage</label>
-                        <textarea id="message" name="message" rows="4" required 
+                        <label for="message" class="block text-sm font-medium text-gray-700"><i class="fa-solid fa-comment-dots mr-1 text-blue-900"></i> Message *</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Votre message ici..."
                             class="mt-1 w-full p-3 border border-gray-300 rounded-md focus:ring-blue-900 focus:border-blue-900"></textarea>
                     </div>
 
@@ -146,6 +149,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <!-- Footer -->
     <?php require_once '../footer.php'; ?>
+
+        <!-- WhatsApp flottant -->
+    <a href="https://wa.me/779903674" target="_blank" 
+        class="fixed bottom-6 right-6 z-50 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 animate-pulse transition duration-300">
+        <i class="fab fa-whatsapp text-white text-2xl"></i>
+    </a>
 
     <!-- Files js -->
     <script src="js/contact.js"></script>

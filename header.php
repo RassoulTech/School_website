@@ -7,7 +7,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <!-- Logo -->
     <div id="logo" class="flex items-center">
         <a href="/site_vitrine_ecole/index.php">
-            <img src="" alt="Logo" class="h-10">
+            <img src="/site_vitrine_ecole/public/logo/mon logo.png" alt="Logo" class="h-10">
         </a>
     </div>
 

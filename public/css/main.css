@@ -1,0 +1,77 @@
+/* ==========================================================
+                        BASE CONTENT
+========================================================== */
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none !important;
+
+    /* font-family in google fonts */
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+div h1{
+    font-size: 70px;
+    text-transform: capitalize;
+
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(40), backwards transform,
+    blink 1s step-end infinite;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 78%;
+    }
+}
+
+h2{
+text-transform: uppercase;
+font-size: 100px;
+text-align: center;
+margin: 50px 0;
+font-weight: bolder;
+animation: bounce 3s linear infinite;
+}
+
+@keyframes bounce {
+20%, 50%, 80%, to{
+    transform: translateY(0);
+}
+40%{
+    transform: translateY(-30px);
+}
+70%{
+    transform: translateY(-15px);
+}
+90%{
+    transform: translateY(-4px);
+}
+}
+
+#container-text a{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 6px;
+    transition: 0.5s;
+    margin-top: 5%;
+}
+#container-text a:hover{
+    letter-spacing: 5px;
+    background:white;
+    color: rgb(59, 59, 139);
+    font-weight: bolder;
+}

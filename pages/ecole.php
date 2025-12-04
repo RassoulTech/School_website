@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>École de Ngoundiane</title>
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Nastaliq+Urdu:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
     <!-- File CSS -->
-    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="../public/css/main.css">
     <!-- CDN Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- CDN Font Awesome -->
@@ -99,7 +103,7 @@
     <!-- Équipe dirigeante -->
     <section class="py-16">
         <div class="max-w-4xl mx-auto p-6 text-center hidden-anim" data-anim="animate-up">
-        <h2 class="text-2xl font-bold mb-4">
+        <h2 class="text-3xl font-bold mb-4">
             <i class="fa-solid fa-users mr-2 text-blue-900"></i> Équipe Dirigeante
         </h2>
         <span class="block h-1 w-16 bg-blue-900 rounded mx-auto mb-6"></span>
@@ -118,7 +122,7 @@
             <img src="../public/images/equipe1.jpg" alt="Photo de M. Ndiaye, Directeur" class="h-32 w-32 rounded-full object-cover mb-4">
             <h3 class="text-xl font-semibold mb-1">Directeur</h3>
             <p class="italic font-bold mb-4 text-gray-500">M. Ndiaye</p>
-            <i class="fa-solid fa-quote-left mr-2 text-blue-900 text-2xl"></i>
+            <i class="fa-solid fa-quote-left mr-2 text-blue-900 text-3xl"></i>
             <blockquote class="text-gray-700 text-sm leading-relaxed">
             Directeur depuis 2015, il a une vaste expérience dans le domaine de l'éducation et œuvre
             à l’amélioration continue de la qualité de l'enseignement.
@@ -130,7 +134,7 @@
             <img src="../public/images/equipe 2.jpg" alt="Photo de Mme Sow, Directrice Adjointe" class="h-32 w-32 rounded-full object-cover mb-4">
             <h3 class="text-xl font-semibold mb-1">Directrice Adjointe</h3>
             <p class="italic font-bold mb-4 text-gray-500">Mme Sow</p>
-            <i class="fa-solid fa-quote-left mr-2 text-blue-900 text-2xl"></i>
+            <i class="fa-solid fa-quote-left mr-2 text-blue-900 text-3xl"></i>
             <blockquote class="text-gray-700 text-sm leading-relaxed">
             Elle supervise les opérations quotidiennes et veille au respect des normes académiques.
             </blockquote>
@@ -141,7 +145,7 @@
             <img src="../public/images/equipe 3.jpg" alt="Photo de M. Fall, Responsable pédagogique" class="h-32 w-32 rounded-full object-cover mb-4">
             <h3 class="text-xl font-semibold mb-1">Responsable Pédagogique</h3>
             <p class="italic font-bold mb-4 text-gray-500">M. Fall</p>
-            <i class="fa-solid fa-quote-left mr-2 text-blue-900 text-2xl"></i>
+            <i class="fa-solid fa-quote-left mr-2 text-blue-900 text-3xl"></i>
             <blockquote class="text-gray-700 text-sm leading-relaxed">
             Responsable de la mise en œuvre du projet pédagogique et de la formation des enseignants.
             </blockquote>
@@ -152,6 +156,12 @@
 
     <!-- Footer -->
     <?php require_once '../footer.php'; ?>
+
+        <!-- WhatsApp flottant -->
+    <a href="https://wa.me/779903674" target="_blank" 
+        class="fixed bottom-6 right-6 z-50 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 animate-pulse transition duration-300">
+        <i class="fab fa-whatsapp text-white text-3xl"></i>
+    </a>
 
     <!-- JS Scroll animations -->
     <script src="../public/js/ecole.js"></script>

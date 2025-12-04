@@ -8,16 +8,16 @@ ini_set('display_errors', 1);
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vie Scolaire - École de Ngoundiane</title>
-
+<!-- Fonts google -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Nastaliq+Urdu:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<!-- file css -->
+<link rel="stylesheet" href="../public/css/main.css">
 <!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
-
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" crossorigin="anonymous">
-
-<!-- Custom CSS -->
-<link rel="stylesheet" href="public/css/main.css">
-
 <style>
 /* Scroll reveal animation */
 .reveal {
