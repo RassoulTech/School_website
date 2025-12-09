@@ -2,5 +2,4 @@ services:
   - type: web
     name: school-website
     env: php
-    buildCommand: echo "Build completed"
-    startCommand: php -S 0.0.0.0:$PORT -t .
+    startCommand: php -S 0.0.0.0:$PORT
