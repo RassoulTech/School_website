@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ - École de Ngoundiane</title>
+    <title>FAQ - École de Francophone</title>
     <!-- Fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,7 +74,7 @@
                     <i class="fa-solid fa-chevron-down transition-transform duration-300"></i>
                 </button>
                 <div class="faq-answer px-6 pb-4 text-gray-700">
-                    Oui, nous proposons un service de transport scolaire sécurisé pour certaines zones autour de Ngoundiane.
+                    Oui, nous proposons un service de transport scolaire sécurisé pour certaines zones autour de Francophone.
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
                 </button>
                 <div class="faq-answer px-6 pb-4 text-gray-700">
                     Vous pouvez nous contacter par téléphone au +221 77 123 45 67 ou par email à 
-                    <a href="/site_vitrine_ecole/pages/contact.php" class="text-blue-600 hover:underline">contact@ngoundiane.sn</a>.
+                    <a href="/site_vitrine_ecole/pages/contact.php" class="text-blue-600 hover:underline">contact@Francophone.sn</a>.
                 </div>
             </div>
         </div>

@@ -8,12 +8,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <!-- Grille du footer -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-sm text-center md:text-left">
             
-            <!-- École Ngoundiane -->
+            <!-- École Francophone -->
             <div>
-                <h1 class="text-xl mb-4 font-bold">École de <span class="text-blue-900 font-bold">Ngoundiane</span> </h1>
-                <p class="mb-2">Adresse : Ngoundiane, Sénégal</p>
+                <h1 class="text-xl mb-4 font-bold">École de <span class="text-blue-900 font-bold">Francophone</span> </h1>
+                <p class="mb-2">Adresse : Francophone, Sénégal</p>
                 <p class="mb-2">Téléphone : +221 77 123 45 67</p>
-                <p class="mb-2">Email : contact@ngoundiane.sn</p>
+                <p class="mb-2">Email : contact@Francophone.sn</p>
             </div>
 
             <!-- Liens rapides -->
@@ -55,7 +55,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         <!-- Footer bas -->
         <div class="mt-10 border-t border-gray-700 pt-4 flex  items-center justify-center space-y-4 md:space-y-0 md:flex-row">
-            <p class="text-xs text-gray-400">&copy; <?= date('Y') ?> École Ngoundiane. Tous droits réservés.</p>
+            <p class="text-xs text-gray-400">&copy; <?= date('Y') ?> École Francophone. Tous droits réservés.</p>
         </div>
     </div>
 </footer>

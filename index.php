@@ -7,7 +7,7 @@ ini_set('display_errors', 1);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - École de Ngoundiane</title>
+    <title>Accueil - École Francophone</title>
     
     <!-- Fonts Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,7 +52,7 @@ ini_set('display_errors', 1);
 
         <div class="relative z-10 flex flex-col items-center max-w-2xl mx-auto">
             <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold typewriter drop-shadow-md leading-snug sm:leading-normal text-center px-3">
-                Bienvenue au <br class="block sm:hidden" /> Lycée Elhadji Ousmane Ngning
+                Bienvenue au <br class="block sm:hidden" /> Lycée FRANCOPHONE DU SÉNÉGAL
             </h1>
 
 
@@ -77,13 +77,13 @@ ini_set('display_errors', 1);
                 <div class="text-left">
                     <p class="font-bold italic mb-4 text-lg sm:text-xl">Qui sommes-nous ?</p>
                     <p class="text-black text-2xl leading-relaxed text-justify text-sm sm:text-base">
-                        L'École de Ngoundiane est un établissement éducatif implanté au cœur du commune de Ngoundiane dans la région de Thiés,
+                        L'École Francophone est un établissement éducatif implanté au cœur du commune Francophone dans la région de Thiés,
                         dédié à l'excellence académique et à l’épanouissement des élèves. Nous accueillons les enfants dès la primaire jusqu’au secondaire.
                     </p>
                 </div>
 
                 <div class="flex justify-center">
-                    <img src="./public/images/apropos_accueil.jpg" alt="École de Ngoundiane"class="rounded-lg shadow-lg w-full max-w-sm sm:max-w-md object-cover transform transition duration-700 hover:scale-105">
+                    <img src="./public/images/apropos_accueil.jpg" alt="École Francophone"class="rounded-lg shadow-lg w-full max-w-sm sm:max-w-md object-cover transform transition duration-700 hover:scale-105">
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@ ini_set('display_errors', 1);
                     </div>
                     <h3 class="text-lg sm:text-xl font-semibold mb-2">Témoignage d’un Parent</h3>
                     <p class="text-gray-700 italic text-sm sm:text-base">
-                        "L'École de Ngoundiane a été un choix exceptionnel pour l'éducation de mes enfants."
+                        "L'École Francophone a été un choix exceptionnel pour l'éducation de mes enfants."
                     </p>
                     <p class="mt-4 text-sm text-gray-500">– Mme Diallo</p>
                 </div>
@@ -142,7 +142,7 @@ ini_set('display_errors', 1);
                     </div>
                     <h3 class="text-lg sm:text-xl font-semibold mb-2">Témoignage d’un Élève</h3>
                     <p class="text-gray-700 italic text-sm sm:text-base">
-                        "J'aime étudier à l'École de Ngoundiane. Les professeurs nous aident toujours à comprendre."
+                        "J'aime étudier à l'École Francophone. Les professeurs nous aident toujours à comprendre."
                     </p>
                     <p class="mt-4 text-sm text-gray-500">– Alioune, élève de 5<sup>ème</sup></p>
                 </div>

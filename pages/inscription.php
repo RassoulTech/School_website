@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 465;
 
         // Expéditeur & destinataire
-        $mail->setFrom('dionemhd1@gmail.com', 'Ecole de Ngoundiane');
+        $mail->setFrom('dionemhd1@gmail.com', 'Ecole de Francophone');
         $mail->addAddress('dionemhd1@gmail.com');
 
         // Contenu
@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscription - École de Ngoundiane</title>
+    <title>Inscription - École de Francophone</title>
     <!-- Fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2 class="text-3xl font-bold mb-4 flex items-center">
             <i class="fa-solid fa-list-check text-blue-900 mr-2"></i> Procédure d'Inscription
         </h2>
-        <p class="text-gray-700">Pour inscrire votre enfant à l'École de Ngoundiane, veuillez suivre les étapes suivantes :</p>
+        <p class="text-gray-700">Pour inscrire votre enfant à l'École de Francophone, veuillez suivre les étapes suivantes :</p>
         <ol class="list-decimal list-inside space-y-2 mt-4 text-gray-700">
             <li>Remplir le formulaire d'inscription ci-dessous.</li>
             <li>Fournir les documents requis (certificat de naissance, photo d'identité, etc.).</li>

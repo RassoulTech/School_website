@@ -7,7 +7,7 @@ ini_set('display_errors', 1);
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vie Scolaire - École de Ngoundiane</title>
+<title>Vie Scolaire - École de Francophone</title>
 <!-- Fonts google -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +45,7 @@ ini_set('display_errors', 1);
             <div>
                 <p class="font-bold italic mb-4 text-xl">Des activités pour tous</p>
                 <p class="text-gray-700 leading-relaxed">
-                    L'École de Ngoundiane propose une large variété de clubs et d'activités extrascolaires :
+                    L'École de Francophone propose une large variété de clubs et d'activités extrascolaires :
                     sport, musique, arts, théâtre et bien plus encore. Ces activités permettent aux élèves
                     de développer leurs talents et de s’épanouir en dehors du cadre académique.
                 </p>
@@ -90,7 +90,7 @@ ini_set('display_errors', 1);
             <div>
                 <p class="font-bold italic mb-4 text-xl">Discipline et respect</p>
                 <p class="text-gray-700 leading-relaxed">
-                    Le règlement intérieur de l'École de Ngoundiane garantit un cadre
+                    Le règlement intérieur de l'École de Francophone garantit un cadre
                     d'apprentissage serein et respectueux. Chaque élève s'engage à adopter une attitude
                     responsable pour le bien-être de tous.
                 </p>

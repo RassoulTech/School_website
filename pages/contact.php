@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 465;
 
         // Expéditeur et destinataire
-        $mail->setFrom('dionemhd1@gmail.com', 'Ecole de Ngoundiane');
+        $mail->setFrom('dionemhd1@gmail.com', 'Ecole de Francophone');
         $mail->addAddress('dionemhd1@gmail.com'); 
 
         // Contenu
@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - École de Ngoundiane</title>
+    <title>Contact - École de Francophone</title>
     <!-- Fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -112,10 +112,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <section class="bg-gray-100 py-10">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <h2 class="text-2xl font-bold mb-4"><i class="fa-solid fa-address-book text-blue-900 mr-2"></i> Informations de Contact</h2>
-            <p class="text-gray-700 mb-2"><i class="fa-solid fa-location-dot text-blue-900 mr-2"></i>Ngoundiane, Sénégal</p>
+            <p class="text-gray-700 mb-2"><i class="fa-solid fa-location-dot text-blue-900 mr-2"></i>Francophone, Sénégal</p>
             <p class="text-gray-700 mb-2"><i class="fa-solid fa-phone text-blue-900 mr-2"></i>+221 77 123 45 67</p>
             <p class="text-gray-700"><i class="fa-solid fa-envelope text-blue-900 mr-2"></i>
-                <a href="mailto:contact@ngoundiane.sn" class="text-blue-900 hover:underline">contact@ngoundiane.sn</a>
+                <a href="mailto:contact@Francophone.sn" class="text-blue-900 hover:underline">contact@Francophone.sn</a>
             </p>
         </div>
     </section>
@@ -125,7 +125,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="max-w-4xl mx-auto px-6">
             <h2 class="text-2xl font-bold text-center mb-4"><i class="fa-solid fa-map-location-dot text-blue-900 mr-2"></i> Localisation</h2>
             <div class="w-full h-96 rounded-lg overflow-hidden shadow-lg">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.89550891989!2d-16.739631926375377!3d14.718499174182243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1e8970a19ddc5%3A0x21979765f5bedec0!2sLyc%C3%A9e%20De%20Ngoundiane!5e0!3m2!1sfr!2ssn!4v1758073270534!5m2!1sfr!2ssn" 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.89550891989!2d-16.739631926375377!3d14.718499174182243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1e8970a19ddc5%3A0x21979765f5bedec0!2sLyc%C3%A9e%20De%20Francophone!5e0!3m2!1sfr!2ssn!4v1758073270534!5m2!1sfr!2ssn" 
                     width="100%" height="100%" style="border:0;" allowfullscreen="" 
                     loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>

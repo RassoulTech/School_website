@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>École de Ngoundiane</title>
+    <title>École Francophone</title>
     <!-- Fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,7 +60,7 @@
             </div>
             <h3 class="text-xl font-bold mb-3">Historique de l'École</h3>
             <p class="text-gray-600 leading-relaxed mb-4">
-            Fondée en <span class="font-semibold text-blue-900">1990</span>, l’École de Ngoundiane s’est donnée pour mission
+            Fondée en <span class="font-semibold text-blue-900">1990</span>, l’École Francophone s’est donnée pour mission
             d’offrir un enseignement de qualité à tous les enfants de la région. 
             Depuis plus de trois décennies, nous sommes devenus un véritable pilier de l’éducation locale,
             formant des générations d’élèves fiers et ambitieux.
